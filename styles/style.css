@@ -1,0 +1,112 @@
+:root {
+  --clr-dark: #0a192f;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-gold: #ffc107;
+  --clr-gold1: #ffc107;
+  --clr-indigo: #6610f2;
+  --clr-blue: #007bff;
+  --clr-cyan: #17a2b8;
+  --clr-green: #28a745;
+  --clr-orange: #fd7e14;
+  --clr-rose: #e11d48;
+  /* --clr-lightest-navy: #0a192f; */
+  --clr-purple: #9d00ff;
+  /*	rgb(255, 193, 7) - gold color */
+  /*	rgb(40, 167, 69) - green color */
+  /*	rgb(225, 29, 72) - rose color */
+  /*	rgb(102, 16, 242) - indigo color */
+
+  /* SIZES */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.light-mode {
+  --clr-dark: #f1f5f9;
+  /* --clr-lightest-navy: #f1f5f9; */
+  --clr-slate400: #1e293b;
+  --clr-slate600: #1e293b;
+  --clr-slate800: #1e293b;
+  --clr-gold: #fd7e14;
+  /* --clr-gold: #ffc107; */
+  --clr-indigo: #6610f2;
+  --clr-blue: #007bff;
+  --clr-cyan: #17a2b8;
+  --clr-green: #fd7e14;
+  --clr-orange: #fd7e14;
+  --clr-rose: #e11d48;
+  --clr-light: #0a192f;
+  --clr-purple: #9d00ff;
+}
+
+body {
+  font-family: "Supreme", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+a {
+  color: var(--clr-rose);
+}
+
+strong {
+  color: var(--clr-green);
+}
+
+/* Scroll bar */
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-gold);
+  outline: 1px solid var(--clr-gold);
+}
