@@ -6,6 +6,7 @@
   --clr-slate800: #1e293b;
   --clr-gold: #ffc107;
   --clr-gold1: #ffc107;
+  --clr-gold2: #ecce72;
   --clr-indigo: #6610f2;
   --clr-blue: #007bff;
   --clr-cyan: #17a2b8;
@@ -53,6 +54,7 @@ html {
   --clr-slate600: #1e293b;
   --clr-slate800: #1e293b;
   --clr-gold: #fd7e14;
+  --clr-gold2: #eea467;
   /* --clr-gold: #ffc107; */
   --clr-indigo: #6610f2;
   --clr-blue: #007bff;
@@ -98,7 +100,7 @@ strong {
 
 /* Scroll bar */
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 8px;
 }
 
@@ -109,4 +111,23 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: var(--clr-gold);
   outline: 1px solid var(--clr-gold);
+} */
+
+/* :root {
+  --shadow: #43a047;
+  --scrollbarBG: #eee;
+  --thumbBG: #66bb6a;
+} */
+
+/* New scrollbar i chose */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--clr-light);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--clr-gold2);
+  box-shadow: 0 -100vh 0 100vh var(--clr-gold), 0 0 15px 5px black;
 }
