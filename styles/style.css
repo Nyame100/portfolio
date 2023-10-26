@@ -1,24 +1,20 @@
 :root {
-  --clr-dark: #0a192f;
-  --clr-light: #f1f5f9;
-  --clr-slate400: #94a3b8;
-  --clr-slate600: #475569;
+  --clr-dark: #f1f5f9;
+  /* --clr-lightest-navy: #f1f5f9; */
+  --clr-slate400: #1e293b;
+  --clr-slate600: #1e293b;
   --clr-slate800: #1e293b;
-  --clr-gold: #ffc107;
-  --clr-gold1: #ffc107;
-  --clr-gold2: #ecce72;
+  --clr-gold: #fd7e14;
+  --clr-gold2: #eea467;
+  /* --clr-gold: #ffc107; */
   --clr-indigo: #6610f2;
   --clr-blue: #007bff;
   --clr-cyan: #17a2b8;
-  --clr-green: #28a745;
+  --clr-green: #fd7e14;
   --clr-orange: #fd7e14;
   --clr-rose: #e11d48;
-  /* --clr-lightest-navy: #0a192f; */
+  --clr-light: #0a192f;
   --clr-purple: #9d00ff;
-  /*	rgb(255, 193, 7) - gold color */
-  /*	rgb(40, 167, 69) - green color */
-  /*	rgb(225, 29, 72) - rose color */
-  /*	rgb(102, 16, 242) - indigo color */
 
   /* SIZES */
   --size-xxs: 0.5rem;
@@ -48,22 +44,26 @@ html {
 }
 
 .light-mode {
-  --clr-dark: #f1f5f9;
-  /* --clr-lightest-navy: #f1f5f9; */
-  --clr-slate400: #1e293b;
-  --clr-slate600: #1e293b;
+  --clr-dark: #0a192f;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
   --clr-slate800: #1e293b;
-  --clr-gold: #fd7e14;
-  --clr-gold2: #eea467;
-  /* --clr-gold: #ffc107; */
+  --clr-gold: #ffc107;
+  --clr-gold1: #ffc107;
+  --clr-gold2: #ecce72;
   --clr-indigo: #6610f2;
   --clr-blue: #007bff;
   --clr-cyan: #17a2b8;
-  --clr-green: #fd7e14;
+  --clr-green: #28a745;
   --clr-orange: #fd7e14;
   --clr-rose: #e11d48;
-  --clr-light: #0a192f;
+  /* --clr-lightest-navy: #0a192f; */
   --clr-purple: #9d00ff;
+  /*	rgb(255, 193, 7) - gold color */
+  /*	rgb(40, 167, 69) - green color */
+  /*	rgb(225, 29, 72) - rose color */
+  /*	rgb(102, 16, 242) - indigo color */
 }
 
 body {
