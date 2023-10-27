@@ -11,12 +11,67 @@
 .header__menu {
   display: none;
 }
-
-.header__bars {
+/* Original */
+/* .header__bars {
   color: var(--clr-light);
   width: var(--size-2xl);
   height: var(--size-2xl);
   display: block;
+} */
+
+/* Edited */
+.header__bars {
+  color: var(--clr-light);
+  width: var(--size-3xl);
+  height: var(--size-3xl);
+  display: block;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: 3px solid var(--clr-gold); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.menu-btn__burger {
+  width: 16px;
+  height: 3px;
+  background: var(--clr-gold);
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2); */
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 3px;
+  background: var(--clr-gold);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-6px);
+}
+
+.menu-btn__burger::after {
+  transform: translateY(6px);
+}
+
+/* Anime */
+
+.header__bars.open .menu-btn__burger {
+  transform: translateX(-16px);
+  background: transparent;
+}
+
+.header__bars.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(11px, -11px);
+}
+.header__bars.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(11px, 11px);
 }
 /* xs */
 /*@media (min-width: 475px) {
