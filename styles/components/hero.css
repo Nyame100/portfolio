@@ -161,6 +161,15 @@
     font-size: var(--size-xl);
   }
 }
+
+@media (min-width: 400px) {
+  .hero {
+    gap: 1.5rem;
+
+    /* Fix hero image distance on mobile device */
+    margin-top: -6rem;
+  }
+}
 /* 2xl */
 /*@media (min-width: 1536px) {
 }*/
