@@ -67,7 +67,7 @@
   margin-left: -1rem;
 }
 .about__list .javascript svg {
-  color: var(--clr-gold1);
+  color: #ffc107;
 }
 .about__list .html svg {
   color: var(--clr-orange);

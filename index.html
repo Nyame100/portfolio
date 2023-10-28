@@ -19,7 +19,21 @@
           <li><a class="header__link" href="#contact">Contact</a></li>
           <li class="header__line"></li>
           <li>
-            <button id="theme-toggle" class="header__sun">
+            <label>
+              <input type="checkbox" />
+              <ion-icon
+                id="theme-toggle"
+                name="sunny"
+                class="header__sun sun"
+              ></ion-icon>
+              <ion-icon
+                id="theme-toggle"
+                name="moon"
+                class="header__moon moon"
+              ></ion-icon>
+              <!-- <span class="header__sun toggle"></span> -->
+            </label>
+            <!-- <button id="theme-toggle" class="header__sun">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -31,7 +45,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-            </button>
+            </button> -->
           </li>
           <li>
             <a
@@ -66,19 +80,23 @@
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
-            <button id="theme-toggle" class="mobile-nav__sun">
-              <!-- The sun for light -->
-              <!-- <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path
-                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
-                />
-              </svg> -->
+            <label>
+              <input type="checkbox" />
+              <ion-icon
+                id="theme-toggle"
+                name="sunny"
+                class="mobile-nav__sun sun"
+              ></ion-icon>
+              <ion-icon
+                id="theme-toggle"
+                name="moon"
+                class="mobile-nav__sun moon"
+              ></ion-icon>
+              <!-- <span class="header__sun toggle"></span> -->
+            </label>
+            <!-- <button id="theme-toggle" class="mobile-nav__sun">
 
-              <!-- The moon for night -->
+              // The moon for night //
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -90,7 +108,7 @@
                   clip-rule="evenodd"
                 />
               </svg>
-            </button>
+            </button> -->
           </li>
           <li>
             <a
@@ -107,13 +125,14 @@
 
     <main>
       <section class="hero container">
-        <span class="hero__img"
+        <span
           ><svg
             width="539"
             height="346"
             viewBox="0 0 539 346"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            class="hero__img"
           >
             <g id="Parent">
               <g id="pc">
@@ -857,5 +876,13 @@
       <h2 class="footer__title">~ Nyame100 ~</h2>
     </footer>
     <script type="module" src="./src/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
