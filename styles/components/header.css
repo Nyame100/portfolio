@@ -100,7 +100,7 @@ input {
   position: absolute;
   font-size: 3em;
   /* color: #777777; */
-  color: var(--clr-gold);
+  color: var(--clr-gold1);
   filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
   transform: scale(0);
   transition: 1s ease;
