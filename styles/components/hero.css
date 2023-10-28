@@ -162,7 +162,7 @@
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 200px) {
   .hero {
     gap: 1.5rem;
 
