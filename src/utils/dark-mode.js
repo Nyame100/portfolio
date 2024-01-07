@@ -13,6 +13,7 @@ const darkMode = () => {
   //   Handllers   //
   const handleThemeToggle = () => {
     document.body.classList.toggle("light-mode");
+
     if (document.body.classList.contains("light-mode")) {
       localStorage.setItem("theme", "light-mode");
     } else {

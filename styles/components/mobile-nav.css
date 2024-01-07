@@ -45,6 +45,12 @@
   height: var(--size-xl);
   color: var(--clr-slate600);
 }
+.mobile-nav__moon {
+  display: block;
+  width: var(--size-xl);
+  height: var(--size-xl);
+  color: var(--clr-slate600);
+}
 
 .mobile-nav__btn {
   font-size: var(--size-sm);

@@ -178,7 +178,10 @@ input:checked ~ .toggle {
 
   .header__sun {
     display: block;
-    /* color: var(--clr-slate600); */
+
+    /* original */
+    /* display: block; */
+    /*  */
     color: var(--clr-gold1);
     width: var(--size-base);
     height: var(--size-base);
